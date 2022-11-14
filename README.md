@@ -1,5 +1,6 @@
 ### register
 
+Post
 Endpoint : user/regiseter
 
 ```
@@ -14,6 +15,7 @@ BODY
 
 ### login
 
+Post
 Endpoint : user/login
 
 ```
@@ -24,8 +26,14 @@ BODY
     }
 ```
 
+### getAllUser
+
+Get
+Endpoint : user/
+
 ### addTodo
 
+Post
 Endpoint : todo/
 
 ```
@@ -36,3 +44,13 @@ BODY
         "desc": "Description"
     }
 ```
+
+### deleteTodo
+
+Delete
+Endpoint : todo/:title
+
+### deleteAllTodo
+
+Delete
+Endpoing : todo/
