@@ -54,3 +54,17 @@ Endpoint : todo/:title
 
 Delete
 Endpoing : todo/
+
+### updateTodo
+
+Put
+Endpoint : todo/:title
+
+```
+BODY
+    {
+        "title": "title",
+        "isDone": false/true,
+        "desc": "Description"
+    }
+```
